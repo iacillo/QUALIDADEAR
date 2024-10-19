@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>FAETEC: Qualidade do Ar</title>
+</head>
+<body>
+    <div class="baixar">&#128190;</div>
+
+    <section class="fade-modal hide-modal">
+        <div class="quadro" id="modal">
+            <div class="barra-titulo">
+                <h1>Mensagem</h1>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ullam doloribus iste eveniet voluptas quibusdam error necessitatibus quidem corrupti sed esse libero harum placeat expedita, voluptatem sequi quasi quo dolores!
+            </p>
+            <div class="action">
+                <button>Ok</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="painel">
+            <span class="resultado">Regular</span>
+        </div>
+        <div class="votacao">
+            <div class="info">
+                porcentagem
+            </div>
+            <div class="pergunta">
+                Como está a qualidade do ar em Volta Redonda?
+            </div>
+            <div class="acoes">
+                <button class="votar">&#128512; Boa</button>
+                <button class="votar">&#128533; Regular</button>
+                <button class="votar">&#129298; Ruim</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="relatorio hide">
+        <div class="header">
+            <!-- <img src="img/logo.jpg" alt=""> -->
+             <B>FAETEC</B>
+             <b>ETE Amaury César Vieira</b>
+            <span id="date">data</span>
+        </div>
+        <div class="body">
+            <h1>SISTEMA DE VOTAÇÃO DE OPINIÃO</h1>
+            <h3>FAETEC ETE Amaury César Vieira</h3>
+            <P id="descricao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorem aspernatur temporibus non, nesciunt beatae at mollitia fugit quae consectetur accusamus quaerat similique libero voluptatum, repellendus, ea consequuntur quos!
+            </P>
+            <h3>Resultados</h3>
+            
+            <table>
+                <tr>
+                    <th>Índices</th>
+                    <th>Quantidades</th>
+                    <th>Porcentagens</th>
+                </tr>
+                <tr>
+                    <td>Participantes</td>
+                    <td id="qtd">0</td>
+                    <td id="p-qtd">0%</td>
+                </tr>
+                <tr>
+                    <td>Boa</td>
+                    <td id="boa">0</td>
+                    <td id="p-boa">0%</td>
+                </tr>
+                <tr>
+                    <td>Regular</td>
+                    <td id="regular">0</td>
+                    <td id="p-regular">0%</td>
+                </tr>
+                <tr>
+                    <td>Ruim</td>
+                    <td id="ruim">0</td>
+                    <td id="p-ruim">0%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            &copy;FAETEC 2024 - Todos os direitos reservados
+        </div>
+    </section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.js"></script>
+</html>
